@@ -72,7 +72,7 @@ El comando showmigrations nos dirá el estado de las migraciones.
 Luego de ejecutar estos códigos, se crearán las bases de datos. Una forma de poder ver estas bases de datos es usando una aplicación como ***sqlite.org***
 Para introducir información dentro de esta base de datos se usará una función ya creada y data que se encuentra en un csv (archivo delimitado por comas).
 
-Para esto, dentro de la carpeta de github de ***carlosgl87*** (https://github.com/carlosgl87/desarrollo_soluciones_web/tree/master/clase4/assets)
+Para esto, dentro de la carpeta de github de ***carlosgl87*** (https://github.com/carlosgl87/desarrollo_soluciones_web/tree/master/clase4)
 extraer la carpeta ***management*** y el file ***pet_data.csv***. La carpeta ***management*** copiarla dentro del proyecto, dentro de la carpeta ***adoptions*** y el file ***pet_data.csv*** copiarlo dentro de la carpeta inicial del proyecto.
 
 Una vez copiado la carpeta y el archivo, en línea de comando, poner:
@@ -141,7 +141,7 @@ def pet_detail(request, id):
     return render(request, 'pet_detail.html', {'pet':pet})
 ```
 
-Finalmente, estos views tendrán que llamar a unos htmls y algunas imágenes. Para esto copia algunos elementos en tu carpeta de trabajo del github (https://github.com/carlosgl87/desarrollo_soluciones_web/tree/master/clase4/assets).
+Finalmente, estos views tendrán que llamar a unos htmls y algunas imágenes. Para esto copia algunos elementos en tu carpeta de trabajo del github (https://github.com/carlosgl87/desarrollo_soluciones_web/tree/master/clase4).
 
 La carpeta ***template*** copiala dentro de la carpeta adoptions y la carpeta ***static*** copiala en la carpeta inicial.
 
